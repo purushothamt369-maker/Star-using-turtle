@@ -1,0 +1,11 @@
+import turtle
+paper=turtle.Screen()
+draw=turtle.Turtle()
+draw.color("purple")
+paper.bgcolor("black")
+draw.goto(50,130)
+draw.goto(100,-5)
+draw.goto(-30,100)
+draw.goto(130,100)
+draw.goto(5,-1)
+paper.mainloop()
